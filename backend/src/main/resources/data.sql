@@ -1,3 +1,5 @@
+TRUNCATE TABLE productos RESTART IDENTITY;
+
 INSERT INTO productos (nombre, precio, color, imagen_url) VALUES
 ('VESTIDO CORTO ZW COLLECTION', 179.00, 'NEGRO', '/assets/prod1.png'),
 ('BLAZER TRAJE ESTRUCTURA', 519.00, 'BLANCO', '/assets/prod2.png'),
