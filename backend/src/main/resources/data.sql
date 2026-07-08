@@ -1,4 +1,4 @@
-TRUNCATE TABLE productos RESTART IDENTITY;
+TRUNCATE TABLE productos RESTART IDENTITY CASCADE;
 
 INSERT INTO productos (nombre, precio, color, imagen_url) VALUES
 ('VESTIDO CORTO ZW COLLECTION', 179.00, 'NEGRO', '/assets/prod1.png'),
