@@ -20,7 +20,7 @@ public WebMvcConfigurer corsConfigurer() {
         @Override
         public void addCorsMappings(CorsRegistry registry) {
             registry.addMapping("/**")
-                    .allowedOrigins("http://localhost:4200")
+                    .allowedOrigins("https://vantu.vercel.app")
                     .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "HEAD")
                     .allowedHeaders("*")
                     .allowCredentials(true); 
