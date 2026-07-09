@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HealthCheckController {
-    @RequestMapping(value = "/ping", method = {RequestMethod.GET, RequestMethod.HEAD})
+    @RequestMapping(value = "/", method = {RequestMethod.GET, RequestMethod.HEAD})
     public ResponseEntity<Void> ping() {
         return ResponseEntity.ok().build();
     }
